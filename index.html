@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Project - Team #1</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 36x36 48x48 57x57 60x60 64x64 70x70 72x72 76x76 96x96 114x114 120x120 144x144 150x150 152x152 180x180 192x192 310x150 310x310" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="contacts-block">
+            <div class="contacts-front">
+                <h1>Team #1 <br> Brainstorm</h1>
+                <h2>Contacts List</h2>
+                <div class="add-contact-block">
+                    <h3>Add a new contact</h3>
+                    <form action="" id="contacts-form">
+                        <input type="text" placeholder="First Name" name="firstName" required>
+                        <input type="text" placeholder="Last Name" name="lastName" required>
+                        <input type="text" placeholder="Phone Number" name="phoneNumber" required>
+                        <button class="add-contact-btn" type="submit">Add to contacts</button>
+                        <span class="back_list has-tooltip" data-tooltip="View all contacts"></span>
+                    </form>
+                </div>
+            </div>
+            <div class="contacts-inner">
+                <h2>Contacts List</h2>
+                <ul class="contacts-list"></ul>
+                <div class="control-buttons">
+                    <button class="prev-btn has-tooltip" data-tooltip="Previous page"></button>
+                    <button class="back_btn-add has-tooltip" data-tooltip="Add more contacts"></button>
+                    <button class="next-btn has-tooltip" data-tooltip="Next page"></button>
+                </div>
+            </div>
+        </div>
+        <div class="contacts-window"></div>
+        <div class="search-block">
+            <input type="text" name="name" required>
+            <span class="search-btn"></span>
+        </div>
+        <div class="result-list" >
+            <ul class="result"></ul>
+        </div>
+    </div>  
+     
+    <script src="js/main.js"></script>
+</body>
+</html>

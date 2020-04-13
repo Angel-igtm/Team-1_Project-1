@@ -1,0 +1,70 @@
+{
+  "contacts": [
+    {
+      "firstName": "Kseniia",
+      "lastName": "Mrs. Mega Mind",
+      "phoneNumber": "996700777508",
+      "id": 1
+    },
+    {
+      "firstName": "Saikal",
+      "lastName": "Mrs. English",
+      "phoneNumber": "Hidden",
+      "id": 2
+    },
+    {
+      "firstName": "Churok",
+      "lastName": "Mrs. Spy Girl",
+      "phoneNumber": "996703181188",
+      "id": 3
+    },
+    {
+      "firstName": "Samat",
+      "lastName": "Mr. Pixel",
+      "phoneNumber": "996558407480",
+      "id": 4
+    },
+    {
+      "firstName": "Max",
+      "lastName": "Mr. Motivation",
+      "phoneNumber": "Hidden",
+      "id": 5
+    },
+    {
+      "firstName": "Emir",
+      "lastName": "Mr. p1p1sasa",
+      "phoneNumber": "Mystery",
+      "id": 6
+    },
+    {
+      "firstName": "Max",
+      "lastName": "1",
+      "phoneNumber": "1",
+      "id": 7
+    },
+    {
+      "firstName": "Adina and Samat",
+      "lastName": "Samat",
+      "phoneNumber": "550423477 <3",
+      "id": 9
+    },
+    {
+      "firstName": "Adina",
+      "lastName": "Adina",
+      "phoneNumber": "12312312",
+      "id": 10
+    },
+    {
+      "firstName": "Adina",
+      "lastName": "Beshbaeva",
+      "phoneNumber": "2312312312",
+      "id": 11
+    },
+    {
+      "firstName": "asdasd",
+      "lastName": "awdawd",
+      "phoneNumber": "223344",
+      "id": 12
+    }
+  ]
+}
